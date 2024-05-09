@@ -1,3 +1,28 @@
+# Develop a Spark application that extracts the three cities with the highest and
+# lowest average rating per restaurant. Combine them, sorted, such that the
+# output looks like this:
+# For instance:
+# +--------+------------------+-----------+
+# | City| AverageRating|RatingGroup|
+# +--------+------------------+-----------+
+# | Athens| 4.241316931982634| Top|
+# | London| 4.178003263308178| Top|
+# | Krakow| 4.164012738853503| Top|
+# | Geneva| 3.97270245677889| Bottom|
+# |Helsinki|3.9153318077803205| Bottom|
+# |Brussels| 3.900580875781948| Bottom|
+# +--------+------------------+-----------+
+# Write the output as CSV files into HDFS path /assignment2/output/question3/.
+
+
+
+
+
+
+
+
+
+
 import sys
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import avg, col,asc, desc,lit
