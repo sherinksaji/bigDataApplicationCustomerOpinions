@@ -1,3 +1,20 @@
+# Develop a Spark application that cleans up the CSV file by removing rows
+# with no reviews or rating < 1.0. Write the output as CSV into HDFS path
+# /assignment2/output/question1/.
+# Sample output
+# +---+--------------------+-----+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+---------+
+# |_c0| Name| City| Cuisine Style|Ranking|Rating|Price Range|Number of Reviews| Reviews| URL_TA| ID_TA|
+# +---+--------------------+-----+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+---------+
+# |700|Auberge de la Rei...|Paris|[ 'French', 'Euro...| 701.0| 4.0| $$ - $$$| 489.0|[ [ 'Cozy Restaur...|/Restaurant_Revie...| d695128|
+# |701| Le Petit Vendome|Paris|[ 'French', 'Euro...| 702.0| 4.0| $$ - $$$| 343.0|[ [ 'Parisian way...|/Restaurant_Revie...| d1146488|
+# |702| La Cave Lanrezac|Paris|[ 'Wine Bar', 'Eu...| 703.0| 4.5| $$ - $$$| 178.0|[ [ 'Dinner with ...|/Restaurant_Revie...| d812970|
+# |704|Chez Fernand Chri...|Paris|[ 'French', 'Euro...| 705.0| 4.0| $$ - $$$| 892.0|[ [ 'Tourist Area...|/Restaurant_Revie...| d1580042|
+
+
+
+
+
+
 import sys
 from pyspark.sql import SparkSession
 from pyspark.sql.types import BooleanType, IntegerType
