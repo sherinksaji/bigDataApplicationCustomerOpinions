@@ -9,7 +9,7 @@
 # | Brussels| International| 74|
 # | London| Kosher| 26|
 # | Lyon| Mediterranean| 80|
-
+# | Lyon| German| 2|
 
 
 
