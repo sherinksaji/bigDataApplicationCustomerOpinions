@@ -1,6 +1,6 @@
 ﻿# Big Data Application For Processing Customer Opinions
  
-The following dataset is processed from q1.py thru q4.py.
+The following dataset is processed from q1.py thru q4.py.  
 The way in which the dataset is proccessed are written in comments above the code for the big data application in each of the scripts.
 
 root
