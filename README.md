@@ -3,19 +3,19 @@
 The following dataset is processed from q1.py thru q4.py.  
 The way in which the dataset is proccessed are written in comments above the code for the big data application in each of the scripts.
 
-root
-|-- _c0: string (nullable = true)
-|-- Name: string (nullable = true)
-|-- City: string (nullable = true)
-|-- Cuisine Style: string (nullable = true)
-|-- Ranking: string (nullable = true)
-|-- Rating: string (nullable = true)
-|-- Price Range: string (nullable = true)
-|-- Number of Reviews: string (nullable = true)
-|-- Reviews: string (nullable = true)
-|-- URL_TA: string (nullable = true)
-|-- ID_TA: string (nullable = true)
-
+root  
+|-- _c0: string (nullable = true)  
+|-- Name: string (nullable = true)  
+|-- City: string (nullable = true)  
+|-- Cuisine Style: string (nullable = true)  
+|-- Ranking: string (nullable = true)  
+|-- Rating: string (nullable = true)  
+|-- Price Range: string (nullable = true)  
+|-- Number of Reviews: string (nullable = true)  
+|-- Reviews: string (nullable = true)  
+|-- URL_TA: string (nullable = true)  
+|-- ID_TA: string (nullable = true)  
+  
 and a preview of the data records looks like the following:
 +---+--------------------+---------+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+---------+
 |_c0| Name| City| Cuisine Style|Ranking|Rating|Price Range|Number of Reviews| Reviews| URL_TA| ID_TA|
