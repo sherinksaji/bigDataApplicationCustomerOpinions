@@ -1,3 +1,23 @@
+# Develop a Spark application that counts the number of restaurants by city and
+# cuisine style.
+# The output should something like the following:
+# +----------+-------------------+-----+
+# | City| Cuisine|count|
+# +----------+-------------------+-----+
+# | Amsterdam| Vietnamese| 24|
+# |Bratislava| Hungarian| 3|
+# | Brussels| International| 74|
+# | London| Kosher| 26|
+# | Lyon| Mediterranean| 80|
+
+
+
+
+
+
+
+
+
 import sys
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import explode, col, split, regexp_replace, trim
