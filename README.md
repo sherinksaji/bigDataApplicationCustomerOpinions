@@ -40,7 +40,7 @@ and a preview of the data records looks like the following:
 | 17| Brasserie Ambassade|Amsterdam|['French', 'Bar',...| 18.0| 4.5| $$$$| 958.0|[['Wonderful Chri...|/Restaurant_Revie...| d8567150|  
 | 18| Sherpa Restaurant|Amsterdam|['Indian', 'Tibet...| 19.0| 4.5| $$ - $$$| 426.0|[['Very good tibe...|/Restaurant_Revie...| d6022573|  
 | 19|La Maschera Lillo...|Amsterdam|['Italian', 'Medi...| 20.0| 4.5| $$ - $$$| 421.0|[['Fabulous Itali...|/Restaurant_Revie...|d10071792|  
-+---+--------------------+---------+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+---------+  
++---+--------------------+---------+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+----+  
 only showing top 20 rows  
   
   
