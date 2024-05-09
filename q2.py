@@ -1,20 +1,20 @@
-Develop a Spark application that finds the best and the worst restaurants for
-each city for each price range (in terms of rating). Write the output as CSV
-into HDFS path /assignment2/output/question2/. For simplicity, you can
-ignore rows with Price Range field as null.
-You may use RDD API and/or Dataframe API. You are not allowed to use
-Spark SQL API.
-Sample output:
-+-----+--------------------+----------+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+---------+
-| _c0| Name| City| Cuisine Style|Ranking|Rating|Price Range|Number of Reviews| Reviews| URL_TA| ID_TA|
-+-----+--------------------+----------+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+---------+
-| 3198| Pietersma Snacks| Amsterdam|[ 'Dutch', 'Europ...| 3209.0| 5.0| $| null| [ [ ], [ ] ]|/Restaurant_Revie...|d10587448|
-| 2932| Grillroom Sabba| Amsterdam|[ 'Middle Eastern' ]| 2942.0| 2.5| $| 12.0|[ [ 'This is a gr...|/Restaurant_Revie...| d6464568|
-| 1503| 1 Chefalyon| Lyon|[ 'Pub', 'Gastrop...| 1485.0| 5.0| $$$$| null| [ [ ], [ ] ]|/Restaurant_Revie...|d12408653|
-| 2605| Papagayo| Lyon| [ 'Diner' ]| 2606.0| 2.0| $$$$| 33.0| [ [ ], [ ] ]|/Restaurant_Revie...| d1329792|
-| 2951| le bountje| Brussels|[ 'Belgian', 'Eur...| 2952.0| 5.0| $$ - $$$| null| [ [ ], [ ] ]|/Restaurant_Revie...| d1563747|
-| 3009| Belga & Co| Brussels| [ 'European' ]| null| -1.0| $$ - $$$| null| [ [ ], [ ] ]|/Restaurant_Revie...|d13531979|
-| 2462| Sushi Express| Stockholm|[ 'Japanese', 'Su...| null| 5.0| $$ - $$$| 2.0| [ [ ], [ ] ]|/Restaurant_Revie...|d13344590|
+# Develop a Spark application that finds the best and the worst restaurants for
+# each city for each price range (in terms of rating). Write the output as CSV
+# into HDFS path /assignment2/output/question2/. For simplicity, you can
+# ignore rows with Price Range field as null.
+# You may use RDD API and/or Dataframe API. You are not allowed to use
+# Spark SQL API.
+# Sample output:
+# +-----+--------------------+----------+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+---------+
+# | _c0| Name| City| Cuisine Style|Ranking|Rating|Price Range|Number of Reviews| Reviews| URL_TA| ID_TA|
+# +-----+--------------------+----------+--------------------+-------+------+-----------+-----------------+--------------------+--------------------+---------+
+# | 3198| Pietersma Snacks| Amsterdam|[ 'Dutch', 'Europ...| 3209.0| 5.0| $| null| [ [ ], [ ] ]|/Restaurant_Revie...|d10587448|
+# | 2932| Grillroom Sabba| Amsterdam|[ 'Middle Eastern' ]| 2942.0| 2.5| $| 12.0|[ [ 'This is a gr...|/Restaurant_Revie...| d6464568|
+# | 1503| 1 Chefalyon| Lyon|[ 'Pub', 'Gastrop...| 1485.0| 5.0| $$$$| null| [ [ ], [ ] ]|/Restaurant_Revie...|d12408653|
+# | 2605| Papagayo| Lyon| [ 'Diner' ]| 2606.0| 2.0| $$$$| 33.0| [ [ ], [ ] ]|/Restaurant_Revie...| d1329792|
+# | 2951| le bountje| Brussels|[ 'Belgian', 'Eur...| 2952.0| 5.0| $$ - $$$| null| [ [ ], [ ] ]|/Restaurant_Revie...| d1563747|
+# | 3009| Belga & Co| Brussels| [ 'European' ]| null| -1.0| $$ - $$$| null| [ [ ], [ ] ]|/Restaurant_Revie...|d13531979|
+# | 2462| Sushi Express| Stockholm|[ 'Japanese', 'Su...| null| 5.0| $$ - $$$| 2.0| [ [ ], [ ] ]|/Restaurant_Revie...|d13344590|
 
 
 
