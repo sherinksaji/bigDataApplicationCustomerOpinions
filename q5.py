@@ -1,3 +1,31 @@
+# Develop a Spark application that finds the pairs of actors/actresses that are
+# co-cast for at least 2 movies. The output should be in a (set of) Parquet files
+# in the following schema:
+# movie_id, title, actor1, actor2
+# Note that the result should not contain any repetition, e.g.
+# 49026, The Dark Knight Rises, Michael Caine, Christian Bale
+# is considered as a duplicate entry of
+# 49026, The Dark Knight Rises, Christian Bale, Michael Caine
+# The output should be something like the following:
+# +--------+--------------------+--------------------+--------------------+
+# |movie_id| title| actor1| actor2|
+# +--------+--------------------+--------------------+--------------------+
+# | 69848| One Man's Hero| James Gammon| Tom Berenger|
+# | 9942| Major League| James Gammon| Tom Berenger|
+# | 285|Pirates of the Ca...| David Bailie| Ho-Kwan Tse|
+# | 58|Pirates of the Ca...| David Bailie| Ho-Kwan Tse|
+# | 921| Cinderella Man| Michael Stevens|Conrad Bergschneider|
+# | 14577| Dirty Work| Michael Stevens|Conrad Bergschneider|
+# | 16290| Jackass 3D|Dimitry Elyashkevich| Manny Puig|
+# | 12094| Jackass Number Two|Dimitry Elyashkevich| Manny Puig|
+# | 9012| Jackass: The Movie|Dimitry Elyashkevich| Manny Puig|
+
+
+
+
+
+
+
 import sys
 from pyspark.sql import SparkSession
 from pyspark.sql.types import ArrayType, StringType, StructField, StructType
