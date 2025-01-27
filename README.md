@@ -1,6 +1,7 @@
 ﻿# Big Data Application For Processing Customer Opinions
- 
-The following dataset is processed from q1.py thru q4.py.  
+
+
+Restaurant review dataset,[krakow-ta-restaurans-data-raw](https://www.kaggle.com/damienbeneschi/krakow-ta-restaurans-data-raw), is processed from q1.py thru q4.py.  	
 The way in which the dataset is proccessed are written in comments above the code for the big data application in each of the scripts.
 
 root  
@@ -44,8 +45,7 @@ and a preview of the data records looks like the following:
 only showing top 20 rows  
   
   
-  
-The following datset is processed in q5.py.   
+ Movie review dataset, [tmdb_5000_credits.csv](https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_credits.csv), is processed in q5.py. 
 The way in which the dataset is proccessed are written in comments above the code for the big data application in the script.  
   
 root  
